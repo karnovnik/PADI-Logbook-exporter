@@ -1,0 +1,1548 @@
+{
+  "exportedAt": "2026-03-24T09:10:05.107Z",
+  "affiliateId": "32575272",
+  "totalDives": 24,
+  "dives": [
+    {
+      "id": 19877661,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": 0,
+      "dive_type": "BeachShore",
+      "dive_title": "Koparki ",
+      "dive_date": "2026-03-22T00:00:00",
+      "dive_location": "Koparki",
+      "memsys_member_number": 577383,
+      "status": "Pending",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 11,
+          "bottom_time": 31,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Sunny",
+          "air_temp": 12,
+          "surface_water_temp": null,
+          "bottom_water_temp": 6,
+          "visibility": "Average",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "DrySuit",
+          "weight": 13,
+          "weight_type": "Heavy",
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 210,
+          "ending_pressure": 100
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Good",
+          "notes": "Miałem problem z pływalność",
+          "buddies": "Dominika Muszynska ",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 19877625,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": 0,
+      "dive_type": "BeachShore",
+      "dive_title": "Koparki ",
+      "dive_date": "2026-03-22T00:00:00",
+      "dive_location": "Koparki",
+      "memsys_member_number": 577383,
+      "status": "Pending",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 17,
+          "bottom_time": 38,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Sunny",
+          "air_temp": 10,
+          "surface_water_temp": null,
+          "bottom_water_temp": 6,
+          "visibility": "Average",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "DrySuit",
+          "weight": 13,
+          "weight_type": "Heavy",
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 210,
+          "ending_pressure": 50
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Good",
+          "notes": "",
+          "buddies": "Dominika Muszynska",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 19877563,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": null,
+      "dive_type": "BeachShore",
+      "dive_title": "Koparki",
+      "dive_date": "2026-03-21T00:00:00",
+      "dive_location": "Koparki",
+      "memsys_member_number": 610780,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 12,
+          "bottom_time": 26,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Sunny",
+          "air_temp": 10,
+          "surface_water_temp": null,
+          "bottom_water_temp": 6,
+          "visibility": "Average",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "DrySuit",
+          "weight": 13,
+          "weight_type": "Heavy",
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 225,
+          "ending_pressure": 140
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Good",
+          "notes": "",
+          "buddies": "Robert Borzymek",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 19877580,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": null,
+      "dive_type": "BeachShore",
+      "dive_title": "Koparki ",
+      "dive_date": "2026-03-21T00:00:00",
+      "dive_location": "Koparki",
+      "memsys_member_number": 610780,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 10,
+          "bottom_time": 29,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Sunny",
+          "air_temp": 10,
+          "surface_water_temp": null,
+          "bottom_water_temp": 6,
+          "visibility": "Average",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "DrySuit",
+          "weight": 13,
+          "weight_type": "Heavy",
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 210,
+          "ending_pressure": 150
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Good",
+          "notes": "",
+          "buddies": "Robert Borzymek",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 18779062,
+      "log_type": "Training",
+      "log_course": "Advanced",
+      "log_number": 5,
+      "dive_type": "Other",
+      "dive_title": "Adventure Dive - Deep",
+      "dive_date": "2025-12-18T00:00:00",
+      "dive_location": "Deepspot",
+      "memsys_member_number": 520244,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 31.3,
+          "bottom_time": 47,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": []
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": null,
+          "body_of_water": null,
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": null,
+          "bottom_water_temp": null,
+          "visibility": null,
+          "visibility_distance": null,
+          "wave_condition": null,
+          "current": null,
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": null,
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": null,
+          "cylinder_size": null,
+          "gas_mixture": null,
+          "oxygen": 0,
+          "nitrogen": 0,
+          "helium": 0,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": null,
+          "notes": "",
+          "buddies": "",
+          "dive_center": ""
+        }
+      ]
+    },
+    {
+      "id": 18435952,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": 0,
+      "dive_type": "BeachShore",
+      "dive_title": "Hancza",
+      "dive_date": "2025-11-16T00:00:00",
+      "dive_location": "underwater.pl",
+      "memsys_member_number": 610780,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 13.4,
+          "bottom_time": 38,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": null,
+          "air_temp": 5,
+          "surface_water_temp": 5,
+          "bottom_water_temp": 7,
+          "visibility": "Average",
+          "visibility_distance": 5,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "DrySuit",
+          "weight": 13,
+          "weight_type": "Good",
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 220,
+          "ending_pressure": 120
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Average",
+          "notes": "",
+          "buddies": "",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 18435967,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": 0,
+      "dive_type": "BeachShore",
+      "dive_title": "Hancza",
+      "dive_date": "2025-11-16T00:00:00",
+      "dive_location": "underwater.pl",
+      "memsys_member_number": 610780,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 10.1,
+          "bottom_time": 31,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Sunny",
+          "air_temp": 0,
+          "surface_water_temp": 0,
+          "bottom_water_temp": 7,
+          "visibility": "Low",
+          "visibility_distance": 5,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "DrySuit",
+          "weight": 13,
+          "weight_type": "Good",
+          "additional_equipment": [
+            "Hood",
+            "Gloves"
+          ],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 220,
+          "ending_pressure": 110
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Average",
+          "notes": "",
+          "buddies": "",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 18435900,
+      "log_type": "Training",
+      "log_course": "SpecialtyAndDistinctive",
+      "log_number": 0,
+      "dive_type": "BeachShore",
+      "dive_title": "Dry suit",
+      "dive_date": "2025-11-15T00:00:00",
+      "dive_location": "underwater.pl",
+      "memsys_member_number": 610780,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 15.2,
+          "bottom_time": 34,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": [
+            "Dry suit"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": null,
+          "body_of_water": null,
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": null,
+          "bottom_water_temp": null,
+          "visibility": null,
+          "visibility_distance": null,
+          "wave_condition": null,
+          "current": null,
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": null,
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": null,
+          "cylinder_size": null,
+          "gas_mixture": null,
+          "oxygen": 0,
+          "nitrogen": 0,
+          "helium": 0,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": null,
+          "notes": "",
+          "buddies": "",
+          "dive_center": ""
+        }
+      ]
+    },
+    {
+      "id": 18435886,
+      "log_type": "Training",
+      "log_course": "SpecialtyAndDistinctive",
+      "log_number": 0,
+      "dive_type": "BeachShore",
+      "dive_title": "Dry suit",
+      "dive_date": "2025-11-15T00:00:00",
+      "dive_location": "underwater.pl",
+      "memsys_member_number": 610780,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 13,
+          "bottom_time": 29,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": [
+            "Dry suit"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": null,
+          "body_of_water": null,
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": null,
+          "bottom_water_temp": null,
+          "visibility": null,
+          "visibility_distance": null,
+          "wave_condition": null,
+          "current": null,
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": null,
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": null,
+          "cylinder_size": null,
+          "gas_mixture": null,
+          "oxygen": 0,
+          "nitrogen": 0,
+          "helium": 0,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": null,
+          "notes": "",
+          "buddies": "",
+          "dive_center": ""
+        }
+      ]
+    },
+    {
+      "id": 17993452,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": 0,
+      "dive_type": "Other",
+      "dive_title": "Deepspot",
+      "dive_date": "2025-10-09T00:00:00",
+      "dive_location": "Deepspot",
+      "memsys_member_number": null,
+      "status": "Publish",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 19.6,
+          "bottom_time": 44,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Other",
+          "weather": null,
+          "air_temp": 26,
+          "surface_water_temp": 32,
+          "bottom_water_temp": 32,
+          "visibility": "High",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "NoExposure",
+          "weight": 0,
+          "weight_type": "Good",
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": null,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 230,
+          "ending_pressure": 100
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Amazing",
+          "notes": "",
+          "buddies": "Ella Ciklaz",
+          "dive_center": ""
+        }
+      ]
+    },
+    {
+      "id": 17605989,
+      "log_type": "Training",
+      "log_course": "Advanced",
+      "log_number": 6,
+      "dive_type": "BeachShore",
+      "dive_title": "Adventure Dive - Navigation",
+      "dive_date": "2025-09-07T00:00:00",
+      "dive_location": "Hańcza",
+      "memsys_member_number": 553659,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 21.7,
+          "bottom_time": 48,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": []
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": null,
+          "body_of_water": null,
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": null,
+          "bottom_water_temp": null,
+          "visibility": null,
+          "visibility_distance": null,
+          "wave_condition": null,
+          "current": null,
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": null,
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": null,
+          "cylinder_size": null,
+          "gas_mixture": null,
+          "oxygen": null,
+          "nitrogen": null,
+          "helium": null,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": null,
+          "notes": "",
+          "buddies": "",
+          "dive_center": ""
+        }
+      ]
+    },
+    {
+      "id": 17605968,
+      "log_type": "Training",
+      "log_course": "Advanced",
+      "log_number": 9,
+      "dive_type": "BeachShore",
+      "dive_title": "Adventure Elective Dive 3",
+      "dive_date": "2025-09-07T00:00:00",
+      "dive_location": "Hańcza",
+      "memsys_member_number": 553659,
+      "status": "Verified",
+      "adventure_dive": "Peak Performance Buoyancy",
+      "depth_times": [
+        {
+          "max_depth": 19.1,
+          "bottom_time": 51,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": []
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": null,
+          "body_of_water": null,
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": null,
+          "bottom_water_temp": null,
+          "visibility": null,
+          "visibility_distance": null,
+          "wave_condition": null,
+          "current": null,
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": null,
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": null,
+          "cylinder_size": null,
+          "gas_mixture": null,
+          "oxygen": null,
+          "nitrogen": null,
+          "helium": null,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": null,
+          "notes": "",
+          "buddies": "",
+          "dive_center": ""
+        }
+      ]
+    },
+    {
+      "id": 17567877,
+      "log_type": "Training",
+      "log_course": "Advanced",
+      "log_number": 7,
+      "dive_type": "BeachShore",
+      "dive_title": "Adventure Elective Dive 1",
+      "dive_date": "2025-09-06T00:00:00",
+      "dive_location": "Hańcza",
+      "memsys_member_number": 553659,
+      "status": "Verified",
+      "adventure_dive": "Underwater Navigation",
+      "depth_times": [
+        {
+          "max_depth": 12.3,
+          "bottom_time": 43,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": []
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": null,
+          "body_of_water": null,
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": null,
+          "bottom_water_temp": null,
+          "visibility": null,
+          "visibility_distance": null,
+          "wave_condition": null,
+          "current": null,
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": null,
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": null,
+          "cylinder_size": null,
+          "gas_mixture": null,
+          "oxygen": 0,
+          "nitrogen": 0,
+          "helium": 0,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": null,
+          "notes": "",
+          "buddies": "",
+          "dive_center": ""
+        }
+      ]
+    },
+    {
+      "id": 17605900,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": 0,
+      "dive_type": "BeachShore",
+      "dive_title": "Recall",
+      "dive_date": "2025-09-06T00:00:00",
+      "dive_location": "Hańcza",
+      "memsys_member_number": null,
+      "status": "Publish",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 13.7,
+          "bottom_time": 33,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Sunny",
+          "air_temp": null,
+          "surface_water_temp": null,
+          "bottom_water_temp": 8,
+          "visibility": "Low",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "FullSuit_7mm",
+          "weight": 7.5,
+          "weight_type": "Heavy",
+          "additional_equipment": [
+            "Hood",
+            "Gloves",
+            "Boots"
+          ],
+          "cylinder_type": "Steel",
+          "cylinder_size": null,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Average",
+          "notes": "",
+          "buddies": "Cezary Pawłowski ",
+          "dive_center": "Hańcza"
+        }
+      ]
+    },
+    {
+      "id": 17605953,
+      "log_type": "Training",
+      "log_course": "Advanced",
+      "log_number": 8,
+      "dive_type": "BeachShore",
+      "dive_title": "Adventure Elective Dive 2",
+      "dive_date": "2025-09-06T00:00:00",
+      "dive_location": "Hańcza",
+      "memsys_member_number": 553659,
+      "status": "Verified",
+      "adventure_dive": "Night Diving",
+      "depth_times": [
+        {
+          "max_depth": 13.7,
+          "bottom_time": 27,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": []
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": null,
+          "body_of_water": null,
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": null,
+          "bottom_water_temp": null,
+          "visibility": null,
+          "visibility_distance": null,
+          "wave_condition": null,
+          "current": null,
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": null,
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": null,
+          "cylinder_size": null,
+          "gas_mixture": null,
+          "oxygen": null,
+          "nitrogen": null,
+          "helium": null,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": null,
+          "notes": "",
+          "buddies": "",
+          "dive_center": ""
+        }
+      ]
+    },
+    {
+      "id": 15740485,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": null,
+      "dive_type": "Other",
+      "dive_title": "Deepspot",
+      "dive_date": "2025-04-15T21:24:43",
+      "dive_location": "Deepspot",
+      "memsys_member_number": null,
+      "status": "Publish",
+      "adventure_dive": "Deep Diving",
+      "depth_times": [
+        {
+          "max_depth": 18.5,
+          "bottom_time": 54,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Other",
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": 31,
+          "bottom_water_temp": 31,
+          "visibility": "High",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "NoExposure",
+          "weight": 0,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 12,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 200,
+          "ending_pressure": 70
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Good",
+          "notes": "",
+          "buddies": "Gabanski Piotr",
+          "dive_center": "Deepspot"
+        }
+      ]
+    },
+    {
+      "id": 15400988,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": null,
+      "dive_type": "Other",
+      "dive_title": "Deepspot",
+      "dive_date": "2025-03-11T18:38:21",
+      "dive_location": "Deepspot",
+      "memsys_member_number": null,
+      "status": "Publish",
+      "adventure_dive": "Deep Diving",
+      "depth_times": [
+        {
+          "max_depth": 19.6,
+          "bottom_time": 48,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Other",
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": 31,
+          "bottom_water_temp": 31,
+          "visibility": "High",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": null
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "NoExposure",
+          "weight": 0,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 12,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 270,
+          "ending_pressure": 80
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Good",
+          "notes": "Find diving partner course",
+          "buddies": "Mirek",
+          "dive_center": "Deepspot"
+        }
+      ]
+    },
+    {
+      "id": 14928051,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": null,
+      "dive_type": "Other",
+      "dive_title": "Perfect Buoyancy",
+      "dive_date": "2025-01-16T07:18:35",
+      "dive_location": "Deepspot",
+      "memsys_member_number": null,
+      "status": "Publish",
+      "adventure_dive": "Deep Diving",
+      "depth_times": [
+        {
+          "max_depth": 12,
+          "bottom_time": 62,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Other",
+          "weather": null,
+          "air_temp": 32,
+          "surface_water_temp": 32,
+          "bottom_water_temp": 32,
+          "visibility": "High",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": "SomeSurge"
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "NoExposure",
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": null,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 250,
+          "ending_pressure": 100
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Good",
+          "notes": "",
+          "buddies": "Waleed \"Karim\" Mohamed Ali",
+          "dive_center": "Deepspot"
+        }
+      ]
+    },
+    {
+      "id": 14928020,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": null,
+      "dive_type": "Other",
+      "dive_title": "Perfect Buoyancy",
+      "dive_date": "2025-01-16T07:14:07",
+      "dive_location": "Deepspot",
+      "memsys_member_number": null,
+      "status": "Publish",
+      "adventure_dive": "Deep Diving",
+      "depth_times": [
+        {
+          "max_depth": 12,
+          "bottom_time": 47,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Other",
+          "weather": null,
+          "air_temp": 32,
+          "surface_water_temp": 32,
+          "bottom_water_temp": 32,
+          "visibility": "High",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": "SomeSurge"
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "NoExposure",
+          "weight": null,
+          "weight_type": null,
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 12,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 250,
+          "ending_pressure": 130
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Good",
+          "notes": "",
+          "buddies": "Waleed \"Karim\" Mohamed Ali",
+          "dive_center": "Deepspot"
+        }
+      ]
+    },
+    {
+      "id": 14753219,
+      "log_type": "Recreational",
+      "log_course": null,
+      "log_number": null,
+      "dive_type": "Other",
+      "dive_title": "Deepspot",
+      "dive_date": "2024-12-30T21:20:50",
+      "dive_location": "Deepspot",
+      "memsys_member_number": null,
+      "status": "Publish",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 18,
+          "bottom_time": 30,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Other",
+          "weather": null,
+          "air_temp": null,
+          "surface_water_temp": 32,
+          "bottom_water_temp": 32,
+          "visibility": "High",
+          "visibility_distance": null,
+          "wave_condition": "NoWaves",
+          "current": "NoCurrent",
+          "surge": "SomeSurge"
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "NoExposure",
+          "weight": 0,
+          "weight_type": "Good",
+          "additional_equipment": [],
+          "cylinder_type": "Steel",
+          "cylinder_size": 12,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": null,
+          "ending_pressure": null
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Average",
+          "notes": "",
+          "buddies": "Lukasz Salitski",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 13768088,
+      "log_type": "Training",
+      "log_course": "Open",
+      "log_number": 4,
+      "dive_type": "BeachShore",
+      "dive_title": "Open Water Training Dive 4",
+      "dive_date": "2024-09-15T08:46:33",
+      "dive_location": "Honoratka",
+      "memsys_member_number": 523178,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 10,
+          "bottom_time": 20,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": [
+            "no skills"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Cloudy",
+          "air_temp": 20,
+          "surface_water_temp": 19,
+          "bottom_water_temp": 9,
+          "visibility": "Average",
+          "visibility_distance": 7,
+          "wave_condition": "SmallWaves",
+          "current": "NoCurrent",
+          "surge": "SomeSurge"
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "FullSuit_5mm",
+          "weight": 6,
+          "weight_type": "Heavy",
+          "additional_equipment": [
+            "Hood",
+            "Boots"
+          ],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 170,
+          "ending_pressure": 120
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Poor",
+          "notes": "Several issues to practice: keep depth, descent,  emergency ascend,  neutral buoyancy.",
+          "buddies": "",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 13768065,
+      "log_type": "Training",
+      "log_course": "Open",
+      "log_number": 3,
+      "dive_type": "BeachShore",
+      "dive_title": "Open Water Training Dive 3",
+      "dive_date": "2024-09-15T08:40:33",
+      "dive_location": "Honoratka",
+      "memsys_member_number": 523178,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 6,
+          "bottom_time": 22,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": [
+            "swim compass",
+            "controlled ascent"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Cloudy",
+          "air_temp": 20,
+          "surface_water_temp": 19,
+          "bottom_water_temp": 16,
+          "visibility": null,
+          "visibility_distance": 7,
+          "wave_condition": "SmallWaves",
+          "current": "NoCurrent",
+          "surge": "SomeSurge"
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "FullSuit_5mm",
+          "weight": 6,
+          "weight_type": "Heavy",
+          "additional_equipment": [
+            "Hood",
+            "Boots"
+          ],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 220,
+          "ending_pressure": 170
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Average",
+          "notes": "The issue with weight, permanently was dragged to the surface. An issue with emergency ascending. Poor neutral buoyancy.\n\n\n",
+          "buddies": "",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 13768038,
+      "log_type": "Training",
+      "log_course": "Open",
+      "log_number": 2,
+      "dive_type": "BeachShore",
+      "dive_title": "Open Water Training Dive 2",
+      "dive_date": "2024-09-14T08:38:21",
+      "dive_location": "Honoratka",
+      "memsys_member_number": 523178,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 6,
+          "bottom_time": 22,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": [
+            "no skills"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Windy",
+          "air_temp": 15,
+          "surface_water_temp": 19,
+          "bottom_water_temp": 16,
+          "visibility": null,
+          "visibility_distance": 5,
+          "wave_condition": "SmallWaves",
+          "current": "NoCurrent",
+          "surge": "SomeSurge"
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "FullSuit_5mm",
+          "weight": 6,
+          "weight_type": "Heavy",
+          "additional_equipment": [
+            "Hood",
+            "Boots"
+          ],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 150,
+          "ending_pressure": 100
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Average",
+          "notes": "",
+          "buddies": "",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    },
+    {
+      "id": 13768014,
+      "log_type": "Training",
+      "log_course": "Open",
+      "log_number": 1,
+      "dive_type": "BeachShore",
+      "dive_title": "Open Water Training Dive 1",
+      "dive_date": "2024-09-14T08:33:08",
+      "dive_location": "Honoratka",
+      "memsys_member_number": 523178,
+      "status": "Verified",
+      "adventure_dive": null,
+      "depth_times": [
+        {
+          "max_depth": 6,
+          "bottom_time": 23,
+          "time_in": null,
+          "time_out": null
+        }
+      ],
+      "skills": [
+        {
+          "dive_skills": [
+            "no skills"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "water_type": "Fresh",
+          "body_of_water": "Lake",
+          "weather": "Windy",
+          "air_temp": 15,
+          "surface_water_temp": 19,
+          "bottom_water_temp": 16,
+          "visibility": null,
+          "visibility_distance": 5,
+          "wave_condition": "SmallWaves",
+          "current": "NoCurrent",
+          "surge": "SomeSurge"
+        }
+      ],
+      "equipment": [
+        {
+          "suit_type": "FullSuit_5mm",
+          "weight": 5,
+          "weight_type": "Heavy",
+          "additional_equipment": [
+            "Hood",
+            "Gloves",
+            "Boots"
+          ],
+          "cylinder_type": "Steel",
+          "cylinder_size": 15,
+          "gas_mixture": "Air",
+          "oxygen": 21,
+          "nitrogen": 79,
+          "helium": 0,
+          "starting_pressure": 200,
+          "ending_pressure": 150
+        }
+      ],
+      "experiences": [
+        {
+          "feeling": "Average",
+          "notes": "",
+          "buddies": "",
+          "dive_center": "underwater.pl"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+    "data": {
+        "logbook_logs": [
+            {
+                "id": 19877580,
+                "log_type": "Recreational",
+                "log_course": null,
+                "log_number": null,
+                "dive_type": "BeachShore",
+                "dive_title": "Koparki ",
+                "dive_date": "2026-03-21T00:00:00",
+                "dive_location": "Koparki",
+                "memsys_member_number": 610780,
+                "status": "Verified",
+                "adventure_dive": null,
+                "depth_times": [
+                    {
+                        "max_depth": 10.0,
+                        "bottom_time": 29,
+                        "time_in": null,
+                        "time_out": null
+                    }
+                ],
+                "skills": [],
+                "conditions": [
+                    {
+                        "water_type": "Fresh",
+                        "body_of_water": "Lake",
+                        "weather": "Sunny",
+                        "air_temp": 10.0,
+                        "surface_water_temp": null,
+                        "bottom_water_temp": 6.0,
+                        "visibility": "Average",
+                        "visibility_distance": null,
+                        "wave_condition": "NoWaves",
+                        "current": "NoCurrent",
+                        "surge": null
+                    }
+                ],
+                "equipment": [
+                    {
+                        "suit_type": "DrySuit",
+                        "weight": 13.0,
+                        "weight_type": "Heavy",
+                        "additional_equipment": [],
+                        "cylinder_type": "Steel",
+                        "cylinder_size": 15.0,
+                        "gas_mixture": "Air",
+                        "oxygen": 21,
+                        "nitrogen": 79,
+                        "helium": 0,
+                        "starting_pressure": 210.0,
+                        "ending_pressure": 150.0
+                    }
+                ],
+                "experiences": [
+                    {
+                        "feeling": "Good",
+                        "notes": "",
+                        "buddies": "Robert Borzymek",
+                        "dive_center": "underwater.pl"
+                    }
+                ]
+            }
+        ]
+    }
+}

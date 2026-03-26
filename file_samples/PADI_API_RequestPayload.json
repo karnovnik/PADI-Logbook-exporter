@@ -1,0 +1,13 @@
+{,…}
+query
+: 
+" query logbook_logs($affiliate_id: Int!, $id: Int!) {\n  logbook_logs(\n    where: {affiliate_id: {_eq: $affiliate_id}, _and: {id: {_eq: $id}}}\n  ) {\n    id\n    log_type\n    log_course\n    log_number\n    dive_type\n    dive_title\n    dive_date\n    dive_location\n    memsys_member_number\n    status\n    adventure_dive\n    depth_times {\n      max_depth\n      bottom_time\n      time_in\n      time_out\n    }\n    skills {\n      dive_skills\n    }\n    conditions {\n      water_type\n      body_of_water\n      weather\n      air_temp\n      surface_water_temp\n      bottom_water_temp\n      visibility\n      visibility_distance\n      wave_condition\n      current\n      surge\n    }\n    equipment {\n      suit_type\n      weight\n      weight_type\n      additional_equipment\n      cylinder_type\n      cylinder_size\n      gas_mixture\n      oxygen\n      nitrogen\n      helium\n      starting_pressure\n      ending_pressure\n    }\n    experiences {\n      feeling\n      notes\n      buddies\n      dive_center\n    }\n  }\n}"
+variables
+: 
+{affiliate_id: "32575272", id: "19877580"}
+affiliate_id
+: 
+"32575272"
+id
+: 
+"19877580"

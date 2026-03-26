@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PADI Logbook Exporter</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --deep:    #0a1628;
+      --mid:     #0e2240;
+      --panel:   #112338;
+      --glow:    #1e90ff;
+      --foam:    #5bbcff;
+      --surface: #d0e8ff;
+      --success: #00c896;
+      --warning: #ffb347;
+      --error:   #ff5f5f;
+      --dim:     #5a7fa0;
+      --r:       8px;
+    }
+
+    body {
+      width: 360px;
+      background: var(--deep);
+      color: #fff;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 13px;
+    }
+
+    /* Header */
+    .hdr {
+      background: linear-gradient(160deg, #0e2a4a 0%, #0d1f38 100%);
+      padding: 16px 20px 14px;
+      border-bottom: 1px solid rgba(30,144,255,.2);
+      display: flex; align-items: center; gap: 12px;
+    }
+    .logo {
+      width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--glow), #0a3d7a);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+      box-shadow: 0 0 14px rgba(30,144,255,.4);
+    }
+    .hdr h1 { font-size: 14px; font-weight: 700; }
+    .hdr p  { font-size: 11px; color: var(--foam); margin-top: 2px; }
+
+    /* Body */
+    .body { padding: 14px 18px; display: flex; flex-direction: column; gap: 12px; }
+
+    /* Card */
+    .card {
+      background: var(--panel);
+      border: 1px solid rgba(30,144,255,.18);
+      border-radius: var(--r);
+      padding: 11px 13px;
+    }
+
+    /* Status */
+    .status-row { display: flex; align-items: center; gap: 8px; }
+    .dot {
+      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+      background: var(--dim); transition: background .3s;
+    }
+    .dot.ok   { background: var(--success); box-shadow: 0 0 6px var(--success); }
+    .dot.warn { background: var(--warning); box-shadow: 0 0 6px var(--warning); }
+    .dot.err  { background: var(--error);   box-shadow: 0 0 6px var(--error); }
+    .status-label { font-size: 12px; font-weight: 600; }
+    .status-sub   { font-size: 11px; color: var(--dim); margin-top: 5px; line-height: 1.45; word-break: break-all; }
+    .status-sub b { color: var(--foam); font-weight: 600; }
+
+    /* Captured info grid */
+    .info-grid {
+      display: grid; grid-template-columns: auto 1fr;
+      gap: 3px 10px; margin-top: 8px; font-size: 11px;
+    }
+    .info-grid dt { color: var(--dim); }
+    .info-grid dd { color: var(--surface); font-weight: 500; word-break: break-all; }
+
+    /* Field */
+    .field label {
+      display: block; font-size: 11px; font-weight: 600;
+      color: var(--dim); text-transform: uppercase; letter-spacing: .6px;
+      margin-bottom: 5px;
+    }
+    .field input {
+      width: 100%; background: var(--mid);
+      border: 1px solid rgba(30,144,255,.22);
+      border-radius: var(--r); padding: 8px 10px;
+      color: #fff; font-size: 12px; outline: none;
+      transition: border-color .2s;
+    }
+    .field input:focus { border-color: var(--glow); }
+    .field input::placeholder { color: var(--dim); }
+    .field-hint { font-size: 10px; color: var(--dim); margin-top: 4px; }
+
+    /* Progress */
+    .prog { display: none; flex-direction: column; gap: 6px; }
+    .prog.on { display: flex; }
+    .track { height: 4px; background: rgba(30,144,255,.15); border-radius: 99px; overflow: hidden; }
+    .fill  { height: 100%; background: linear-gradient(90deg, var(--glow), var(--foam));
+              border-radius: 99px; width: 0; transition: width .35s ease; }
+    .prog-msg { font-size: 11px; color: var(--foam); }
+
+    /* Alert boxes */
+    .alert { display: none; border-radius: var(--r); padding: 10px 12px; font-size: 11px; line-height: 1.5; }
+    .alert.on { display: block; }
+    .alert-err  { background: rgba(255,95,95,.08);  border: 1px solid rgba(255,95,95,.3);  color: #ff9090; }
+    .alert-ok   { background: rgba(0,200,150,.08);  border: 1px solid rgba(0,200,150,.3);  color: var(--success); }
+    .alert-ok strong { color: #fff; }
+
+    /* Buttons */
+    .btn {
+      width: 100%; padding: 10px; border: none; border-radius: var(--r);
+      font-size: 13px; font-weight: 700; cursor: pointer; letter-spacing: .3px;
+      transition: opacity .2s, transform .1s;
+    }
+    .btn:active { transform: scale(.98); }
+    .btn:disabled { opacity: .4; cursor: not-allowed; transform: none; }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--glow), #1050a0);
+      color: #fff; box-shadow: 0 3px 14px rgba(30,144,255,.3);
+    }
+    .btn-primary:not(:disabled):hover { opacity: .88; }
+    .btn-secondary {
+      background: transparent; border: 1px solid rgba(30,144,255,.4);
+      color: var(--foam); font-weight: 600;
+    }
+    .btn-secondary:not(:disabled):hover { border-color: var(--glow); color: #fff; }
+    .btn-ghost {
+      background: transparent; border: 1px solid rgba(30,144,255,.22);
+      color: var(--dim); font-weight: 500;
+    }
+    .btn-ghost:not(:disabled):hover { border-color: var(--glow); color: var(--foam); }
+
+    /* Delay slider */
+    .delay-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+    .delay-label { font-size: 12px; font-weight: 600; color: var(--surface); }
+    .delay-val   { font-size: 12px; font-weight: 700; color: var(--foam); min-width: 32px; text-align: right; }
+    .delay-hint  { font-size: 10px; color: var(--dim); margin-top: 6px; }
+    input[type=range] {
+      width: 100%; accent-color: var(--glow); cursor: pointer;
+      height: 4px; border-radius: 99px;
+    }
+
+    hr { border: none; border-top: 1px solid rgba(30,144,255,.1); }
+  </style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="logo">🤿</div>
+  <div>
+    <h1>PADI Logbook Exporter</h1>
+    <p>Export all your dives to JSON</p>
+  </div>
+</div>
+
+<div class="body">
+
+  <!-- Session status -->
+  <div class="card">
+    <div class="status-row">
+      <div class="dot" id="dot"></div>
+      <div class="status-label" id="statusLabel">Waiting for session…</div>
+    </div>
+    <div id="statusSub" class="status-sub" style="margin-top:6px">
+      Open PADI website → go to your Logbook → click any dive to capture auth.
+    </div>
+    <dl class="info-grid" id="infoGrid" style="display:none">
+      <dt>Endpoint</dt><dd id="infoUrl">—</dd>
+      <dt>Affiliate ID</dt><dd id="infoAffiliate">—</dd>
+      <dt>Captured</dt><dd id="infoCaptured">—</dd>
+    </dl>
+  </div>
+
+  <!-- Affiliate ID override (shown if not auto-captured) -->
+  <div class="field" id="affiliateField" style="display:none">
+    <label>Affiliate ID (manual override)</label>
+    <input type="text" id="affiliateInput" placeholder="e.g. 32575272" />
+    <div class="field-hint">Found in browser DevTools → Network → any logbook request → payload → variables.affiliate_id</div>
+  </div>
+
+  <!-- Progress -->
+  <div class="prog" id="prog">
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <div class="prog-msg" id="progMsg">Starting…</div>
+  </div>
+
+  <!-- Error -->
+  <div class="alert alert-err" id="errBox"></div>
+
+  <!-- Success -->
+  <div class="alert alert-ok" id="okBox"></div>
+
+  <!-- Delay setting -->
+  <div class="card">
+    <div class="delay-row">
+      <span class="delay-label">Delay between requests</span>
+      <span class="delay-val" id="delayVal">2.0s</span>
+    </div>
+    <input type="range" id="delaySlider" min="500" max="5000" step="500" value="2000" />
+    <div class="delay-hint">Lower = faster, higher = safer from rate limiting</div>
+  </div>
+
+  <hr />
+
+  <button class="btn btn-primary" id="btnExport" disabled>Export JSON</button>
+  <button class="btn btn-secondary" id="btnExportCsv" disabled style="margin-top:6px">Export CSV (Subsurface)</button>
+  <button class="btn btn-ghost" id="btnClear" style="margin-top:6px">Reset session</button>
+
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
